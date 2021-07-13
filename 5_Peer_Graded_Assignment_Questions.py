@@ -113,7 +113,7 @@ app.layout = html.Div(children=[
                                                      # Update dropdown values using list comphrehension
                                                      options=[{'label': i, 'value': i} for i in year_list],
                                                      placeholder="Select a year",
-                                                     style={'width':'80%', 'padding':'3px', 'font-size': '20px', 'text-align-last' : 'center'}),
+                                                     style={'width':'80%', 'padding':'3px', 'font-size': '20px', 'text-align-last' : 'center'})
                                             # Place them next to each other using the division style
                                             ], style={'display': 'flex'}),  
                                           ]),
